@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:src="@drawable/avatar3"
+        app:civ_border_color="@color/theme_iris_color"
+        app:civ_border_width="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/show_user_layout_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/userNameList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingStart="8dp"
+                android:paddingLeft="8dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:text="Shekhar"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:fontFamily="@font/quill_std"/>
+
+            <TextView
+                android:id="@+id/currentStatus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online"
+                android:textColor="@color/theme_iris_color"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="25dp"
+            android:paddingTop="2dp"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="3dp"
+            android:text="Hey There"
+            android:textColor="#BFBFBF" />
+    </LinearLayout>
+
+</LinearLayout>

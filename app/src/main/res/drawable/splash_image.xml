@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/dark_purple_color" />
+    <item android:drawable="@drawable/official_icon"
+        android:height="120dp"
+        android:width="120dp"
+        android:gravity="center"/>
+</layer-list>
